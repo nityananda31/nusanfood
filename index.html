@@ -1,0 +1,51 @@
+<!-- ================= login.html ================= -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUSANFOOD | Login</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class=" bg-cover bg-center" style="background-image:url('bg.png');background-repeat:no-repeat;background-size:cover;background-position:center;">
+
+
+<script>
+setTimeout(()=>{},5000)
+</script>
+
+<div class="min-h-screen bg-cover bg-center flex items-center justify-center">
+<div class="p-6  w-80 text-white">
+<h1 class="text-2xl font-bold text-center mb-4">NUSANFOOD</h1>
+<label for="nama">NAMA</label>
+<input id="nama" placeholder="Nama" class="w-full mb-3 p-2 rounded text-black">
+<label for="email">EMAIL</label>
+<input id="email" placeholder="Email" class="w-full mb-3 p-2 rounded text-black">
+<div class="relative">
+<label for="password">PASSWORD</label>
+<input id="password" type="password" placeholder="Kata Sandi" class="w-full p-2 rounded text-black">
+<span onclick="toggle()" class="absolute right-3 top-8 cursor-pointer"><i class="fa-regular fa-eye text-black"></i></span>
+</div>
+<button onclick="login()" class="w-full mt-4 bg-teal-400 text-black font-bold py-2 rounded">LOGIN</button>
+</div>
+</div>
+<div class="text-center w-100" style="position: fixed;bottom:15px;width:100%;">
+    <p class="text-white">RACIKAN MAKANAN KHAS DAERAH NUSANTARA</p>
+</div>
+
+
+<script>
+function toggle(){
+const p=document.getElementById('password');
+p.type=p.type==='password'?'text':'password';
+}
+function login(){
+localStorage.setItem('user',JSON.stringify({
+nama:nama.value,email:email.value
+}));
+location.href='home.html';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,804 @@
+[
+  {
+    "id": 1,
+    "nama": "Lawar Bali",
+    "bintang": 4,
+    "foto": "lawar.jpg",
+    "kategori": ["halal", "sehat", "vegetarian"],
+    "lokasi": "Bali",
+    "penjelasan": "Lawar adalah makanan khas Bali berbahan sayur dan kelapa parut dengan bumbu rempah melimpah.",
+
+    "bahan_utama": [
+      "200 g kacang panjang, potong halus ±1 cm",
+      "100 g kelapa muda parut, sangrai tanpa minyak"
+    ],
+
+    "bumbu_dapur": [
+      "50 g bumbu base genep, haluskan",
+      "1 sdm air jeruk limau (opsional untuk aroma segar)",
+      "Garam secukupnya",
+      "Lada secukupnya"
+    ],
+
+    "resep": [
+      "Siapkan sayuran seperti kacang panjang yang sudah dipotong kecil",
+      "Siapkan kelapa parut yang sudah dipanggang/sangrai",
+      "Ulek bumbu base genep (bawang, cabai, kencur, terasi, dll)",
+      "Campurkan sayuran, kelapa, dan bumbu hingga merata",
+      "Sajikan segera selagi segar"
+    ],
+
+    "nutrisi": {
+      "kalori": "170 kcal",
+      "protein": "31 g",
+      "lemak_total": "7 g",
+      "lemak_jenuh": "2 g",
+      "karbohidrat": "42 g",
+      "gula": "5 g",
+      "serat": "17 g",
+      "sodium": "470 mg",
+      "kolesterol": "0 mg"
+    },
+
+    "komposisi_bahan": [
+      {"nama":"Kacang panjang","jumlah":"200 g","kalori":"70 kcal","karbohidrat":"13 g","protein":"4 g","lemak":"0.5 g","serat":"5 g"},
+      {"nama":"Kelapa parut","jumlah":"100 g","kalori":"354 kcal","karbohidrat":"15 g","protein":"3 g","lemak":"33 g","serat":"9 g"},
+      {"nama":"Bumbu base genep","jumlah":"50 g","kalori":"55 kcal","karbohidrat":"6 g","protein":"1 g","lemak":"2 g","serat":"1 g"}
+    ],
+
+    "pembuat": {
+      "nama": "Ni Made Sari",
+      "foto": "img2.jpg",
+      "wa": "081234567890"
+    }
+  },
+
+  {
+    "id": 2,
+    "nama": "Ayam Betutu",
+    "bintang": 5,
+    "foto": "ayambetutu.jpg",
+    "kategori": ["halal", "pedas"],
+    "lokasi": "Gianyar, Bali",
+    "penjelasan": "Ayam utuh yang dimasak dengan bumbu base genep yang dikukus lalu dipanggang.",
+
+    "bahan_utama": [
+      "1 ekor ayam utuh (±1 kg), bersihkan dan buang isi perut"
+    ],
+
+    "bumbu_dapur": [
+      "120 g bumbu base genep, haluskan",
+      "2 batang serai, memarkan",
+      "2 lembar daun salam",
+      "Daun pisang secukupnya untuk membungkus",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Cuci bersih satu ekor ayam utuh",
+      "Haluskan bumbu base genep dalam jumlah banyak",
+      "Lumuri seluruh bagian ayam dengan bumbu hingga ke dalam rongga",
+      "Bungkus ayam dengan daun pisang secara rapat",
+      "Kukus selama minimal 3 jam, lalu panggang sebentar sebelum disajikan"
+    ],
+
+    "nutrisi": {
+      "kalori": "280 kcal",
+      "protein": "35 g",
+      "lemak_total": "14 g",
+      "lemak_jenuh": "4 g",
+      "karbohidrat": "2 g",
+      "gula": "1 g",
+      "serat": "1 g",
+      "sodium": "650 mg",
+      "kolesterol": "85 mg"
+    },
+
+    "komposisi_bahan": [
+      {"nama":"Ayam utuh","jumlah":"1 ekor","kalori":"950 kcal","karbohidrat":"0 g","protein":"85 g","lemak":"65 g","serat":"0 g"},
+      {"nama":"Bumbu base genep","jumlah":"120 g","kalori":"140 kcal","karbohidrat":"12 g","protein":"3 g","lemak":"7 g","serat":"3 g"}
+    ],
+
+    "pembuat": {
+      "nama": "Wayan Subagia",
+      "foto": "img1.jpg",
+      "wa": "081234567891"
+    }
+  },
+
+  {
+    "id": 3,
+    "nama": "Sate Lilit Ayam",
+    "bintang": 5,
+    "foto": "satelilit.jpg",
+    "kategori": ["halal", "favorit"],
+    "lokasi": "Denpasar, Bali",
+    "penjelasan": "Daging ayam cincang yang dicampur kelapa parut dan bumbu, lalu dililitkan pada batang serai.",
+
+    "bahan_utama": [
+      "300 g daging ayam, cincang halus",
+      "80 g kelapa parut"
+    ],
+
+    "bumbu_dapur": [
+      "50 g bumbu base genep, haluskan",
+      "2 batang serai, gunakan sebagai lilitan",
+      "Garam secukupnya",
+      "Lada secukupnya"
+    ],
+
+    "resep": [
+      "Haluskan daging ayam hingga lembut",
+      "Campurkan dengan kelapa parut dan bumbu genep",
+      "Ambil sedikit adonan, lilitkan pada batang serai yang sudah dicuci",
+      "Bakar di atas bara api hingga berwarna kecokelatan",
+      "Sajikan dengan sambal matah"
+    ],
+
+    "nutrisi": {
+      "kalori": "210 kcal",
+      "protein": "18 g",
+      "lemak_total": "12 g",
+      "lemak_jenuh": "6 g",
+      "karbohidrat": "8 g",
+      "gula": "3 g",
+      "serat": "2 g",
+      "sodium": "320 mg",
+      "kolesterol": "45 mg"
+    },
+
+    "komposisi_bahan": [
+      {"nama":"Daging ayam","jumlah":"300 g","kalori":"480 kcal","karbohidrat":"0 g","protein":"54 g","lemak":"27 g","serat":"0 g"},
+      {"nama":"Kelapa parut","jumlah":"80 g","kalori":"280 kcal","karbohidrat":"12 g","protein":"2 g","lemak":"26 g","serat":"7 g"}
+    ],
+
+    "pembuat": {
+      "nama": "Ketut Arini",
+      "foto": "img2.jpg",
+      "wa": "081234567892"
+    }
+  },
+  {
+    "id": 4,
+    "nama": "Nasi Jinggo",
+    "bintang": 4,
+    "foto": "nasijonggo.jpeg",
+    "kategori": ["halal", "murah"],
+    "lokasi": "Badung, Bali",
+    "penjelasan": "Nasi porsi kecil khas Bali yang dibungkus daun pisang dengan lauk pauk sederhana.",
+
+    "bahan_utama": [
+      "150 g nasi putih matang",
+      "50 g ayam suwir pedas",
+      "30 g mie goreng cokelat",
+      "25 g tempe manis goreng"
+    ],
+
+    "bumbu_dapur": [
+      "10 g sambal goreng",
+      "Daun pisang secukupnya untuk membungkus",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Siapkan nasi putih seukuran kepalan tangan",
+      "Masak ayam sisit pedas dan mie goreng cokelat",
+      "Siapkan tempe manis dan sambal goreng pedas",
+      "Tata semua lauk di atas nasi",
+      "Bungkus kerucut menggunakan daun pisang dan sematkan lidi"
+    ],
+
+    "nutrisi": {
+      "kalori": "350 kcal",
+      "protein": "12 g",
+      "lemak_total": "10 g",
+      "lemak_jenuh": "3 g",
+      "karbohidrat": "55 g",
+      "gula": "4 g",
+      "serat": "3 g",
+      "sodium": "580 mg",
+      "kolesterol": "20 mg"
+    },
+    "komposisi_bahan": [
+  {"nama":"Nasi putih","jumlah":"200 g","kalori":"260 kcal","karbohidrat":"57 g","protein":"5 g","lemak":"0.5 g","serat":"1 g"},
+  {"nama":"Ayam suwir","jumlah":"100 g","kalori":"165 kcal","karbohidrat":"0 g","protein":"31 g","lemak":"3.6 g","serat":"0 g"},
+  {"nama":"Lawar","jumlah":"80 g","kalori":"90 kcal","karbohidrat":"12 g","protein":"3 g","lemak":"4 g","serat":"3 g"},
+  {"nama":"Sambal","jumlah":"20 g","kalori":"35 kcal","karbohidrat":"4 g","protein":"1 g","lemak":"2 g","serat":"1 g"}
+],
+    "pembuat": {
+      "nama": "Bu Kadek",
+      "foto": "img2.jpg",
+      "wa": "081234567893"
+    }
+  },
+
+  {
+    "id": 5,
+    "nama": "Serombotan",
+    "bintang": 4,
+    "foto": "serombotan.jpg",
+    "kategori": ["vegetarian", "pedas", "sehat"],
+    "lokasi": "Klungkung, Bali",
+    "penjelasan": "Campuran sayur-sayuran rebus dengan bumbu kacang dan bumbu pedas khas Klungkung.",
+
+    "bahan_utama": [
+      "100 g kangkung, rebus",
+      "80 g bayam, rebus",
+      "80 g kacang panjang, rebus",
+      "50 g pare, iris dan rebus"
+    ],
+
+    "bumbu_dapur": [
+      "100 g bumbu kacang",
+      "20 g bumbu unyah sere",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Rebus kangkung, bayam, kacang panjang, dan pare",
+      "Siapkan bumbu kacang kental",
+      "Buat bumbu tambahan unyah sere",
+      "Tata sayuran di piring",
+      "Siram dengan bumbu kacang dan taburi kacang goreng"
+    ],
+
+    "nutrisi": {
+      "kalori": "145 kcal",
+      "protein": "6 g",
+      "lemak_total": "8 g",
+      "lemak_jenuh": "1 g",
+      "karbohidrat": "15 g",
+      "gula": "4 g",
+      "serat": "9 g",
+      "sodium": "390 mg",
+      "kolesterol": "0 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Kangkung","jumlah":"100 g","kalori":"25 kcal","karbohidrat":"4 g","protein":"3 g","lemak":"0.3 g","serat":"2 g"},
+  {"nama":"Bayam","jumlah":"80 g","kalori":"20 kcal","karbohidrat":"3 g","protein":"2 g","lemak":"0.2 g","serat":"2 g"},
+  {"nama":"Kacang panjang","jumlah":"80 g","kalori":"30 kcal","karbohidrat":"6 g","protein":"2 g","lemak":"0.2 g","serat":"3 g"},
+  {"nama":"Pare","jumlah":"50 g","kalori":"12 kcal","karbohidrat":"2 g","protein":"1 g","lemak":"0 g","serat":"1 g"},
+  {"nama":"Bumbu kacang","jumlah":"100 g","kalori":"280 kcal","karbohidrat":"12 g","protein":"8 g","lemak":"22 g","serat":"4 g"}
+]
+,
+    "pembuat": {
+      "nama": "Nyoman Gede",
+      "foto": "img3.jpg",
+      "wa": "081234567894"
+    }
+  },
+
+  {
+    "id": 6,
+    "nama": "Tipat Cantok",
+    "bintang": 4,
+    "foto": "tipatcantokjpg.jpg",
+    "kategori": ["vegetarian", "halal"],
+    "lokasi": "Singaraja, Bali",
+    "penjelasan": "Ketupat dan sayuran yang dicampur langsung dengan bumbu kacang di atas ulekan.",
+
+    "bahan_utama": [
+      "200 g ketupat (tipat), potong dadu",
+      "80 g tauge, rebus",
+      "80 g kangkung, rebus"
+    ],
+
+    "bumbu_dapur": [
+      "100 g kacang tanah goreng, haluskan",
+      "3 siung bawang putih",
+      "2 buah cabai rawit",
+      "1 ruas kencur",
+      "Gula bali dan garam secukupnya"
+    ],
+
+    "resep": [
+      "Goreng kacang tanah hingga matang",
+      "Ulek kacang bersama cabai, kencur, bawang putih",
+      "Masukkan potongan ketupat",
+      "Tambahkan sayuran rebus",
+      "Aduk rata dan sajikan"
+    ],
+
+    "nutrisi": {
+      "kalori": "320 kcal",
+      "protein": "10 g",
+      "lemak_total": "12 g",
+      "lemak_jenuh": "2 g",
+      "karbohidrat": "45 g",
+      "gula": "6 g",
+      "serat": "5 g",
+      "sodium": "410 mg",
+      "kolesterol": "0 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Ketupat","jumlah":"200 g","kalori":"260 kcal","karbohidrat":"58 g","protein":"4 g","lemak":"1 g","serat":"1 g"},
+  {"nama":"Tauge","jumlah":"80 g","kalori":"20 kcal","karbohidrat":"3 g","protein":"2 g","lemak":"0.2 g","serat":"1 g"},
+  {"nama":"Kangkung","jumlah":"80 g","kalori":"20 kcal","karbohidrat":"3 g","protein":"2 g","lemak":"0.2 g","serat":"2 g"},
+  {"nama":"Bumbu kacang","jumlah":"100 g","kalori":"280 kcal","karbohidrat":"12 g","protein":"8 g","lemak":"22 g","serat":"4 g"}
+],
+    "pembuat": {
+      "nama": "Gede Agus",
+      "foto": "img1.jpg",
+      "wa": "081234567895"
+    }
+  },
+
+  {
+    "id": 7,
+    "nama": "Sate Plecing",
+    "bintang": 5,
+    "foto": "sateplecing.jpg",
+    "kategori": ["halal", "sangat pedas"],
+    "lokasi": "Singaraja, Bali",
+    "penjelasan": "Sate daging yang dibakar dan disajikan dengan sambal plecing pedas segar.",
+
+    "bahan_utama": [
+      "300 g daging sapi, potong dadu kecil"
+    ],
+
+    "bumbu_dapur": [
+      "10 buah cabai rawit",
+      "1 buah tomat",
+      "1 sdt terasi bakar",
+      "Garam secukupnya",
+      "Jeruk limau secukupnya"
+    ],
+
+    "resep": [
+      "Potong daging kecil-kecil dan tusuk dengan lidi",
+      "Buat sambal plecing",
+      "Bakar sate hingga matang",
+      "Siram dengan sambal",
+      "Tambahkan jeruk limau"
+    ],
+
+    "nutrisi": {
+      "kalori": "250 kcal",
+      "protein": "24 g",
+      "lemak_total": "15 g",
+      "lemak_jenuh": "5 g",
+      "karbohidrat": "5 g",
+      "gula": "2 g",
+      "serat": "1 g",
+      "sodium": "600 mg",
+      "kolesterol": "70 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Daging sapi","jumlah":"300 g","kalori":"540 kcal","karbohidrat":"0 g","protein":"60 g","lemak":"42 g","serat":"0 g"},
+  {"nama":"Cabai rawit","jumlah":"50 g","kalori":"20 kcal","karbohidrat":"4 g","protein":"1 g","lemak":"0 g","serat":"1 g"},
+  {"nama":"Tomat","jumlah":"50 g","kalori":"10 kcal","karbohidrat":"2 g","protein":"0 g","lemak":"0 g","serat":"1 g"}
+],
+    "pembuat": {
+      "nama": "Putu Dharma",
+      "foto": "img3.jpg",
+      "wa": "081234567896"
+    }
+  },
+
+  {
+    "id": 8,
+    "nama": "Nasi Tepeng",
+    "bintang": 4,
+    "foto": "nasitepeng.webp",
+    "kategori": ["sarapan", "pedas"],
+    "lokasi": "Gianyar, Bali",
+    "penjelasan": "Nasi lembek menyerupai bubur dengan sayuran dan bumbu pedas.",
+
+    "bahan_utama": [
+      "150 g beras",
+      "100 g nangka muda"
+    ],
+
+    "bumbu_dapur": [
+      "50 g bumbu kuning",
+      "2 siung bawang merah",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Masak beras hingga sangat lunak",
+      "Masukkan bumbu rempah",
+      "Tambahkan sayuran",
+      "Sajikan hangat",
+      "Siram kuah pedas"
+    ],
+
+    "nutrisi": {
+      "kalori": "290 kcal",
+      "protein": "8 g",
+      "lemak_total": "9 g",
+      "lemak_jenuh": "2 g",
+      "karbohidrat": "48 g",
+      "gula": "3 g",
+      "serat": "6 g",
+      "sodium": "520 mg",
+      "kolesterol": "10 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Beras","jumlah":"150 g","kalori":"540 kcal","karbohidrat":"120 g","protein":"10 g","lemak":"1 g","serat":"2 g"},
+  {"nama":"Nangka muda","jumlah":"100 g","kalori":"50 kcal","karbohidrat":"12 g","protein":"1 g","lemak":"0 g","serat":"3 g"},
+  {"nama":"Bumbu kuning","jumlah":"50 g","kalori":"60 kcal","karbohidrat":"7 g","protein":"1 g","lemak":"2 g","serat":"1 g"}
+],
+    "pembuat": {
+      "nama": "Bu Wayan",
+      "foto": "img2.jpg",
+      "wa": "081234567897"
+    }
+  },
+
+  {
+    "id": 9,
+    "nama": "Rujak Kuah Pindang",
+    "bintang": 5,
+    "foto": "rujakkuahpindang.jpg",
+    "kategori": ["halal", "unik", "pedas"],
+    "lokasi": "Denpasar, Bali",
+
+    "bahan_utama": [
+      "100 g mangga muda, iris",
+      "100 g bengkoang, iris",
+      "100 ml kuah pindang ikan"
+    ],
+
+    "bumbu_dapur": [
+      "5 buah cabai rawit",
+      "1 sdt terasi",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Rebus ikan untuk kaldu pindang",
+      "Haluskan cabai dan terasi",
+      "Campur ke kuah",
+      "Siram ke buah",
+      "Sajikan"
+    ],
+
+    "nutrisi": {
+      "kalori": "120 kcal",
+      "protein": "4 g",
+      "lemak_total": "1 g",
+      "lemak_jenuh": "0 g",
+      "karbohidrat": "26 g",
+      "gula": "18 g",
+      "serat": "4 g",
+      "sodium": "750 mg",
+      "kolesterol": "5 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Mangga muda","jumlah":"100 g","kalori":"60 kcal","karbohidrat":"15 g","protein":"1 g","lemak":"0 g","serat":"2 g"},
+  {"nama":"Bengkoang","jumlah":"100 g","kalori":"38 kcal","karbohidrat":"9 g","protein":"1 g","lemak":"0 g","serat":"2 g"},
+  {"nama":"Kuah pindang ikan","jumlah":"100 ml","kalori":"25 kcal","karbohidrat":"2 g","protein":"3 g","lemak":"0.5 g","serat":"0 g"}
+]
+,
+    "pembuat": {
+      "nama": "Made Sukerti",
+      "foto": "img2.jpg",
+      "wa": "081234567898"
+    }
+  },
+  {
+    "id": 10,
+    "nama": "Tum Ayam",
+    "bintang": 4,
+    "foto": "tumayam.jpg",
+    "kategori": ["halal", "dikukus"],
+    "lokasi": "Bali",
+    "penjelasan": "Pepes khas Bali yang menggunakan daging ayam cincang dan bumbu lengkap.",
+
+    "bahan_utama": [
+      "300 g daging ayam, cincang halus",
+      "50 ml santan kental"
+    ],
+
+    "bumbu_dapur": [
+      "50 g bumbu base genep, haluskan",
+      "2 buah cabai merah, iris",
+      "Daun pisang secukupnya untuk membungkus",
+      "Lidi secukupnya"
+    ],
+
+    "resep": [
+      "Cincang halus daging ayam",
+      "Campur dengan bumbu halus dan santan",
+      "Tambahkan irisan cabai",
+      "Bungkus dengan daun pisang",
+      "Kukus hingga matang"
+    ],
+
+    "nutrisi": {
+      "kalori": "185 kcal",
+      "protein": "20 g",
+      "lemak_total": "10 g",
+      "lemak_jenuh": "3 g",
+      "karbohidrat": "4 g",
+      "gula": "1 g",
+      "serat": "1 g",
+      "sodium": "440 mg",
+      "kolesterol": "55 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Daging ayam","jumlah":"300 g","kalori":"480 kcal","karbohidrat":"0 g","protein":"54 g","lemak":"27 g","serat":"0 g"},
+  {"nama":"Santan kental","jumlah":"50 ml","kalori":"90 kcal","karbohidrat":"2 g","protein":"1 g","lemak":"9 g","serat":"0 g"},
+  {"nama":"Bumbu base genep","jumlah":"50 g","kalori":"55 kcal","karbohidrat":"6 g","protein":"1 g","lemak":"2 g","serat":"1 g"}
+]
+,
+    "pembuat": {
+      "nama": "Gusti Ayu",
+      "foto": "img2.jpg",
+      "wa": "081234567899"
+    }
+  },
+
+  {
+    "id": 11,
+    "nama": "Rendang Sapi",
+    "bintang": 5,
+    "foto": "rendang.jpg",
+    "kategori": ["halal", "populer"],
+    "lokasi": "Sumatera Barat",
+    "penjelasan": "Masakan daging sapi yang dimasak lama dengan santan dan rempah hingga kering.",
+
+    "bahan_utama": [
+      "500 g daging sapi, potong melawan serat",
+      "500 ml santan kental"
+    ],
+
+    "bumbu_dapur": [
+      "100 g bumbu rendang halus",
+      "2 batang serai, memarkan",
+      "3 lembar daun jeruk",
+      "2 lembar daun salam",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Potong daging sapi",
+      "Masak santan dan bumbu hingga mendidih",
+      "Masukkan daging",
+      "Masak dengan api kecil sambil diaduk",
+      "Masak hingga kering dan berminyak"
+    ],
+
+    "nutrisi": {
+      "kalori": "450 kcal",
+      "protein": "28 g",
+      "lemak_total": "35 g",
+      "lemak_jenuh": "18 g",
+      "karbohidrat": "10 g",
+      "gula": "2 g",
+      "serat": "3 g",
+      "sodium": "780 mg",
+      "kolesterol": "95 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Daging sapi","jumlah":"500 g","kalori":"900 kcal","karbohidrat":"0 g","protein":"90 g","lemak":"70 g","serat":"0 g"},
+  {"nama":"Santan kental","jumlah":"500 ml","kalori":"900 kcal","karbohidrat":"20 g","protein":"10 g","lemak":"90 g","serat":"0 g"},
+  {"nama":"Bumbu rendang","jumlah":"100 g","kalori":"150 kcal","karbohidrat":"18 g","protein":"3 g","lemak":"6 g","serat":"4 g"}
+]
+,
+    "pembuat": {
+      "nama": "Hj. Siti",
+      "foto": "img2.jpg",
+      "wa": "082134567800"
+    }
+  },
+
+  {
+    "id": 12,
+    "nama": "Gudeg Jogja",
+    "bintang": 5,
+    "foto": "gudeg.jpg",
+    "kategori": ["halal", "manis"],
+    "lokasi": "Yogyakarta",
+    "penjelasan": "Nangka muda yang dimasak perlahan dengan santan dan gula merah.",
+
+    "bahan_utama": [
+      "500 g nangka muda, potong besar",
+      "600 ml santan"
+    ],
+
+    "bumbu_dapur": [
+      "150 g gula merah",
+      "5 siung bawang merah",
+      "3 siung bawang putih",
+      "2 lembar daun salam",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Alasi panci dengan daun",
+      "Masukkan nangka dan bumbu",
+      "Tuang santan",
+      "Masak dengan api kecil lama",
+      "Sajikan setelah meresap"
+    ],
+
+    "nutrisi": {
+      "kalori": "230 kcal",
+      "protein": "5 g",
+      "lemak_total": "12 g",
+      "lemak_jenuh": "5 g",
+      "karbohidrat": "30 g",
+      "gula": "15 g",
+      "serat": "6 g",
+      "sodium": "400 mg",
+      "kolesterol": "0 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Nangka muda","jumlah":"500 g","kalori":"250 kcal","karbohidrat":"60 g","protein":"4 g","lemak":"1 g","serat":"12 g"},
+  {"nama":"Santan","jumlah":"600 ml","kalori":"720 kcal","karbohidrat":"24 g","protein":"12 g","lemak":"72 g","serat":"0 g"},
+  {"nama":"Gula merah","jumlah":"150 g","kalori":"570 kcal","karbohidrat":"140 g","protein":"0 g","lemak":"0 g","serat":"0 g"}
+]
+,
+    "pembuat": {
+      "nama": "Yu Djum",
+      "foto": "img3.jpg",
+      "wa": "081134567801"
+    }
+  },
+
+  {
+    "id": 13,
+    "nama": "Pempek Palembang",
+    "bintang": 5,
+    "foto": "pempekpalembang.jpg",
+    "kategori": ["halal", "seafood"],
+    "lokasi": "Palembang",
+    "penjelasan": "Olahan ikan dan sagu dengan kuah cuko asam pedas.",
+
+    "bahan_utama": [
+      "400 g ikan tenggiri giling",
+      "300 g tepung sagu"
+    ],
+
+    "bumbu_dapur": [
+      "5 siung bawang putih",
+      "1 sdt garam",
+      "Air secukupnya",
+      "Kuah cuko secukupnya"
+    ],
+
+    "resep": [
+      "Campur ikan dan air",
+      "Masukkan sagu",
+      "Bentuk pempek",
+      "Rebus hingga mengapung",
+      "Goreng dan sajikan dengan cuko"
+    ],
+
+    "nutrisi": {
+      "kalori": "380 kcal",
+      "protein": "15 g",
+      "lemak_total": "8 g",
+      "lemak_jenuh": "1 g",
+      "karbohidrat": "60 g",
+      "gula": "12 g",
+      "serat": "1 g",
+      "sodium": "890 mg",
+      "kolesterol": "40 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Ikan tenggiri","jumlah":"400 g","kalori":"440 kcal","karbohidrat":"0 g","protein":"80 g","lemak":"8 g","serat":"0 g"},
+  {"nama":"Tepung sagu","jumlah":"300 g","kalori":"990 kcal","karbohidrat":"240 g","protein":"0 g","lemak":"0 g","serat":"1 g"},
+  {"nama":"Kuah cuko","jumlah":"150 ml","kalori":"120 kcal","karbohidrat":"28 g","protein":"1 g","lemak":"0 g","serat":"0 g"}
+]
+,
+    "pembuat": {
+      "nama": "Cik Lili",
+      "foto": "img2.jpg",
+      "wa": "081334567802"
+    }
+  },
+
+  {
+    "id": 14,
+    "nama": "Soto Betawi",
+    "bintang": 4,
+    "foto": "sotobetawi.jpg",
+    "kategori": ["halal", "berkuah"],
+    "lokasi": "Jakarta",
+    "penjelasan": "Soto berkuah santan dan susu dengan daging sapi dan jeroan.",
+
+    "bahan_utama": [
+      "400 g daging sapi, potong dadu",
+      "200 ml santan",
+      "200 ml susu cair"
+    ],
+
+    "bumbu_dapur": [
+      "5 siung bawang merah",
+      "3 siung bawang putih",
+      "1 ruas jahe",
+      "1 sdt ketumbar",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Rebus daging hingga empuk",
+      "Tumis bumbu",
+      "Masukkan ke kaldu",
+      "Tambahkan santan dan susu",
+      "Sajikan dengan pelengkap"
+    ],
+
+    "nutrisi": {
+      "kalori": "320 kcal",
+      "protein": "22 g",
+      "lemak_total": "22 g",
+      "lemak_jenuh": "12 g",
+      "karbohidrat": "10 g",
+      "gula": "4 g",
+      "serat": "1 g",
+      "sodium": "710 mg",
+      "kolesterol": "80 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Daging sapi","jumlah":"400 g","kalori":"720 kcal","karbohidrat":"0 g","protein":"72 g","lemak":"56 g","serat":"0 g"},
+  {"nama":"Santan","jumlah":"200 ml","kalori":"240 kcal","karbohidrat":"8 g","protein":"4 g","lemak":"24 g","serat":"0 g"},
+  {"nama":"Susu cair","jumlah":"200 ml","kalori":"120 kcal","karbohidrat":"10 g","protein":"6 g","lemak":"4 g","serat":"0 g"}
+]
+,
+    "pembuat": {
+      "nama": "Bang Mamat",
+      "foto": "img1.jpg",
+      "wa": "081534567803"
+    }
+  },
+
+  {
+    "id": 15,
+    "nama": "Papeda Ikan Kuah Kuning",
+    "bintang": 5,
+    "foto": "papedakuning.jpeg",
+    "kategori": ["halal", "sehat"],
+    "lokasi": "Papua",
+    "penjelasan": "Bubur sagu kenyal disajikan dengan ikan kuah kuning.",
+
+    "bahan_utama": [
+      "150 g tepung sagu",
+      "300 g ikan tongkol"
+    ],
+
+    "bumbu_dapur": [
+      "50 g bumbu kuning",
+      "2 batang serai",
+      "1 buah jeruk nipis",
+      "Daun kemangi secukupnya",
+      "Garam secukupnya"
+    ],
+
+    "resep": [
+      "Masak ikan dengan bumbu kuning",
+      "Siapkan larutan sagu",
+      "Siram air mendidih sambil diaduk",
+      "Sajikan papeda",
+      "Tuang kuah ikan di atasnya"
+    ],
+
+    "nutrisi": {
+      "kalori": "210 kcal",
+      "protein": "18 g",
+      "lemak_total": "4 g",
+      "lemak_jenuh": "1 g",
+      "karbohidrat": "32 g",
+      "gula": "1 g",
+      "serat": "2 g",
+      "sodium": "540 mg",
+      "kolesterol": "35 mg"
+    },
+"komposisi_bahan": [
+  {"nama":"Tepung sagu","jumlah":"150 g","kalori":"495 kcal","karbohidrat":"120 g","protein":"0 g","lemak":"0 g","serat":"1 g"},
+  {"nama":"Ikan tongkol","jumlah":"300 g","kalori":"360 kcal","karbohidrat":"0 g","protein":"66 g","lemak":"6 g","serat":"0 g"},
+  {"nama":"Bumbu kuning","jumlah":"50 g","kalori":"60 kcal","karbohidrat":"7 g","protein":"1 g","lemak":"2 g","serat":"1 g"}
+]
+,
+    "pembuat": {
+      "nama": "Mama Papua",
+      "foto": "img2.jpg",
+      "wa": "082234567804"
+    }
+  }
+]
+
+

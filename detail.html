@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUSANFOOD | Detail</title>
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-cover bg-center p-4 text-white" style="background-image:url('bg.png');background-repeat:no-repeat;background-size:cover;background-position:center;">
+
+
+<a href="home.html" class="underline">← Kembali</a>
+
+<h1 class="text-3xl font-bold mb-4 text-center pt-3">NUSANFOOD</h1>
+<div id="content" class="mt-4"></div>
+
+<div class="text-center w-100" style="position: fixed;bottom:15px;width:100%;">
+    <p class="text-white">RACIKAN MAKANAN KHAS DAERAH NUSANTARA</p>
+</div>
+
+
+<script>
+let foods = [];
+
+async function loadDetail() {
+  const res = await fetch('foods.json');
+  foods = await res.json();
+
+  const id = parseInt(new URLSearchParams(location.search).get('id'));
+  const f = foods.find(x => x.id === id);
+
+  if (!f) {
+    content.innerHTML = '<p>Data tidak ditemukan</p>';
+    return;
+  }
+
+  content.innerHTML = `
+    <div class="flex">
+        <img src="${f.foto}" class="rounded mb-3 img-foto">
+        <div class="pl-2">
+            <h2 class="text-2xl textname font-bold">${f.nama}</h2>
+            <h2 class="bintang">${renderStars(f.bintang)}</h2>
+        </div>
+    </div>
+    
+    <p class="penjelasan">${f.penjelasan}</p>
+
+    <div class="max-w-xl mx-auto mt-6">
+
+        <div class="flex justify-center">
+            <div class="w-full flex justify-between" style="max-width: 300px;">
+            <button
+                id="tab-resep"
+                class="px-4 py-2 "
+                style="background-color: white; color:black;"
+                onclick="openTab('resep')">
+                Resep
+                </button>
+
+                <button
+                id="tab-gizi"
+                class="px-4 py-2"
+                style="background-color: white; color:black;"
+                onclick="openTab('gizi')">
+                Informasi
+                </button>
+        </div>
+        </div>
+
+    <div class="mt-4">
+        <div id="content-resep" class="tab-content">
+        <div class="p-4 px-5 rounded" style="background-color: rgba(255, 0, 0, 0.2);">
+          <h4>Bahan Utama</h4>
+          <ol style="list-style:number;">
+          ${f.bahan_utama.map(b => `
+                <li>${b}</li>
+            `).join('')}
+        </ol>
+        </div>
+        <div class="p-4 px-5 mt-4 rounded" style="background-color: rgba(255, 0, 0, 0.2);">
+          <h4>Bahan Dapur</h4>
+          <ol style="list-style:number;">
+          ${f.bumbu_dapur.map(b => `
+                <li>${b}</li>
+            `).join('')}
+        </ol>
+        </div>
+        </div>
+        <div id="content-gizi" class="tab-content hidden">
+          <div class="my-3 overflow-x-auto">
+            <table class="w-full table-wrapper text-sm border border-black border-collapse bg-white text-black">
+                <thead class="bg-gray-200">
+                  <tr>
+                    <th class="border px-2 py-1">Bahan</th>
+                    <th class="border px-2 py-1">Jumlah</th>
+                    <th class="border px-2 py-1">Kalori</th>
+                    <th class="border px-2 py-1">Karbohidrat</th>
+                    <th class="border px-2 py-1">Protein</th>
+                    <th class="border px-2 py-1">Lemak</th>
+                    <th class="border px-2 py-1">Serat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${f.komposisi_bahan.map(b => `
+                    <tr>
+                      <td class="border px-2 py-1">${b.nama}</td>
+                      <td class="border px-2 py-1">${b.jumlah}</td>
+                      <td class="border px-2 py-1">${b.kalori}</td>
+                      <td class="border px-2 py-1">${b.karbohidrat}</td>
+                      <td class="border px-2 py-1">${b.protein}</td>
+                      <td class="border px-2 py-1">${b.lemak}</td>
+                      <td class="border px-2 py-1">${b.serat}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+
+          </div>
+          <table class="table-auto border border-black border-collapse bg-white text-black" style="width:100%;">
+            <thead class="bg-gray-200">
+                  <tr>
+                    <th class="border px-2 py-1">Komponan</th>
+                    <th class="border px-2 py-1">Jumlah</th>
+                  </tr>
+                </thead>
+    <tr>
+        <td class="border border-black px-3 py-1">Kalori</td>
+        <td class="border border-black px-3 py-1">${f.nutrisi.kalori}</td>
+    </tr>
+    <tr>
+        <td class="border border-black px-3 py-1">Protein</td>
+        <td class="border border-black px-3 py-1">${f.nutrisi.protein}</td>
+    </tr>
+    <tr>
+        <td class="border border-black px-3 py-1">Lemak Total</td>
+        <td class="border border-black px-3 py-1">${f.nutrisi.lemak_total}</td>
+    </tr>
+    <tr>
+        <td class="border border-black px-3 py-1">Karbohidrat</td>
+        <td class="border border-black px-3 py-1">${f.nutrisi.karbohidrat}</td>
+    </tr>
+    <tr>
+        <td class="border border-black px-3 py-1">Serat</td>
+        <td class="border border-black px-3 py-1">${f.nutrisi.serat}</td>
+    </tr>
+</table>
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class=" gap-3 items-center mt-4 pt-20 pb-20">
+      <div class="flex w-100" style="justify-content: center;"">
+        <img src="${f.pembuat.foto}" class="w-40 h-40 rounded-full" >
+      </div>
+      <div class="text-center">
+        <p class="font-bold">${f.pembuat.nama}</p>
+        <p class="text-sm">WA: ${f.pembuat.wa}</p>
+      </div>
+    </div>
+  `;
+}
+
+loadDetail();
+function openTab(tab) {
+  // content
+  document.getElementById('content-resep').classList.add('hidden');
+  document.getElementById('content-gizi').classList.add('hidden');
+
+
+  // active tab
+  document.getElementById('content-' + tab).classList.remove('hidden');
+}
+function renderStars(n) {
+  let s = '';
+
+  for (let i = 1; i <= n; i++) {
+    if (i > n) {
+      s += '<span class="text-red-600">★</span>';
+    } else if (i === 3) {
+      s += '<span class="text-green-600">★</span>';
+    } else if (i % 2 === 0) {
+      s += '<span class="text-blue-600">★</span>';
+    } else {
+      s += '<span class="text-red-600">★</span>';
+    }
+  }
+
+  return s;
+}
+</script>
+
+</body>
+</html>

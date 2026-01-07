@@ -1,0 +1,22 @@
+.img-foto{
+    max-width: 200px;
+}
+.bintang{
+    font-size: 2rem;
+}
+.penjelasan{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.textname{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+@media (max-width: 330px) {
+  .img-foto{
+    max-width: 100px !important;
+}
+}
