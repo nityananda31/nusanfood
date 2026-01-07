@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>NUSANFOOD</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-cover bg-center"
+style="height:100vh;overflow-y:scroll;background-image:url('bg.png');background-repeat:no-repeat;background-size:cover;background-position:center;">
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-red-900/70"></div>
+
+  <!-- Content -->
+  <div class="relative z-10  pt-12">
+<a href="home.html" class="pl-4 underline text-white">← Kembali</a>
+    <div class="pt-10 items-center flex flex-col text-white"><h1 class="text-3xl mt-3 font-bold tracking-widest">NUSANFOOD</h1>
+    <p class="text-sm mt-1">RACIKAN MAKANAN KHAS DAERAH NUSANTARA</p>
+    <p class="mt-4 uppercase tracking-widest text-sm">Profil</p>
+
+    <!-- Foto Profil -->
+    <div class="mt-6">
+      <img src="profil.jpeg"
+        class="w-36 h-36 rounded-full border-4 border-red-600 object-cover">
+    </div>
+
+    <!-- Nama -->
+    <div class="mt-6 bg-white text-black px-6 py-2 rounded shadow">
+      <span id="namaUser" class="font-semibold"></span>
+    </div>
+
+    <!-- WA -->
+    <div class="mt-3 bg-white text-black px-6 py-2 rounded shadow">
+      <span id="waUser">WA: 082236652275</span>
+    </div></div>
+
+  </div>
+
+  <script>
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
+      return '';
+    }
+
+    document.getElementById('namaUser').innerText = getCookie('nama') || 'Nama Tidak Ada';
+  </script>
+
+</body>
+</html>
